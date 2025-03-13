@@ -14,7 +14,7 @@ module "security_group" {
 
 module "key_pair" {
   source      = "./modules/key-pair"
-  key_name    = "my-key-arjun2"
+  key_name    = "my-key-preethi"
   public_key  = file("./id_rsa.pub")
 }
 
