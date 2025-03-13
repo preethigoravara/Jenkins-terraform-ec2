@@ -8,7 +8,7 @@ terraform {
   required_version = ">= 1.2.0"
 
   backend "s3" {
-    bucket         = "my-terraform-state-bucket-arjun12"
+    bucket         = "my-terraform-s3-bucket-preethigor"
     key            = "terraform.tfstate"
     region         = "ap-southeast-2"
     encrypt        = true
